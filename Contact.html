@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Contact Details</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="style.css">
+        <style> 
+            h1{
+                color:antiquewhite;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                color:azure;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            body{
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="link-group">
+                <li class="link"> <a href="index.html">Home</a></li>
+                <li class="link"> <a href="project.html">Project</a></li>
+                <li class="link"> <a href="About.html">About</a></li>
+                <li class="link"> <a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us Here:</h1>
+        <section id="contact" class="contact-section active">
+            <!-- <h1 class="heading">Contact Us</h1> -->
+             <form class="contact-form" id="contactForm">
+                 <input type="text" name="name" id="name" autocomplete="off" placeholder="name" required />
+                 <input type="mail" name="email" id="email" autocomplete="off" placeholder="email" required />
+                 <textarea name="msg" id="msg" autocomplete="off" placeholder="Please enter your message" required></textarea>
+                 <button type="submit" class="form-submit-btn">Contact Me</button>
+             </form>         
+    </body>
+</html>
