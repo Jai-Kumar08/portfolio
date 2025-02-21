@@ -10,7 +10,7 @@ body{
     margin: auto;
     min-height: 100vh;
     background: #191919;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 .navbar{
@@ -24,6 +24,7 @@ body{
     z-index: 9;
     background: #1a1a1a;
 }
+
 .link-group{
     list-style: none;
     display: flex;
@@ -40,6 +41,8 @@ body{
     transition: .5s;
     font-size: 20px;
 }
+
+
 .link a:hover, .link.active a{
     opacity: 1;
 }
